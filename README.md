@@ -1,8 +1,7 @@
-pgsqlAdmin 4
-=========
+pgsqlAdmin
+==========
 
-pgsqlAdmin 4 is a rewrite of the popular pgsqlAdmin3 management tool for the
-PostgreSQL (http://www.postgresql.org) database. 
+pgsqlAdmin is forked from the https://git.postgresql.org/pgadmin4 project.
 
 In the following documentation and examples, "$PGADMIN4_SRC/" is used to denote
 the top-level directory of a copy of the pgsqlAdmin source tree, either from a
@@ -11,7 +10,7 @@ tarball or a git checkout.
 Architecture
 ------------
 
-pgsqlAdmin 4 is written as a web application in Python, using jQuery and Bootstrap
+pgsqlAdmin is written as a web application in Python, using jQuery and Bootstrap
 for the client side processing and UI. On the server side, Flask is being
 utilised.
 
@@ -116,7 +115,7 @@ process is fairly simple - adapt as required for your distribution:
 
     (pgsqladmin) $ python $PGADMIN4_SRC/web/setup.py
 
-   or by starting pgsqlAdmin 4:
+   or by starting pgsqlAdmin:
 
     (pgsqladmin) $ python $PGADMIN4_SRC/web/pgsqlAdmin4.py
 
@@ -124,7 +123,7 @@ process is fairly simple - adapt as required for your distribution:
    the runtime, that will not work in server mode as the runtime doesn't allow
    command line interaction with the setup program.
 
-At this point you will be able to run pgsqlAdmin 4 from the command line in either
+At this point you will be able to run pgsqlAdmin from the command line in either
 server or desktop mode, and access it from a web browser using the URL shown in
 the terminal once pgsqlAdmin has started up.
 
